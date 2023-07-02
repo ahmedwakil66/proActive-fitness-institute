@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blocky-input{
+    @apply w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500
+}
+.title-sec{
+    @apply text-2xl sm:text-4xl font-semibold text-center mb-6 sm:mb-8
+}
+
+
+/*======================
+=== My custom styles ===
+========================*/
+
+*{
+    box-sizing: border-box;
+}
+
+.my-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mt-sec {
+    margin-top: 5rem;
+}
+
+.mb-sec {
+    margin-bottom: 5rem;
+}
+
+.pt-sec {
+    padding-top: 5rem;
+}
+
+.pb-sec {
+    padding-bottom: 5rem;
+}
+
+.nav-link a.active{
+    background-color: darkcyan;
+    color: aquamarine;
+}
+
+.inbox-nav a.active{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    .mt-sec {
+        margin-top: 2.5rem;
+    }
+
+    .mb-sec {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: rgb(236, 110, 110);
+    transform-origin: 0%;
+    z-index: 100000000;
+  }
