@@ -17,10 +17,11 @@ const ClassCard = ({ cls, person, refetch, isLoading }) => {
     }
 
     if (status === 'pending') { return null }
+    if (status === 'denied') { return null }
 
     return (
         <div className={`card bg-base-100 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all ${(total_seats - enrolled_count) === 0 && 'bg-red-200'}`}>
-            <figure><img src={image} alt="Shoes" /></figure>
+            <figure className="h-[250px] overflow-hidden"><img src={image} alt="" className="w-full h-full"/></figure>
             <div className="card-body">
                 <h1 className="card-title">{name}</h1>
                 <h2>Instructor: {instructor_name}</h2>

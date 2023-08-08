@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
-import useAuth from "../../../hooks/useAuth";
 import { useEffect } from "react";
+import useUser from "../../../hooks/useUser";
 
 const AdminHome = () => {
-    const { user } = useAuth();
+    const {person} = useUser();
+
     useEffect(() => {
         const html = document.querySelector('html');
         html.setAttribute('data-theme', 'dark');
     }, [])
 
     const bgStyle = {
-        backgroundImage: `url(${user?.photoURL})`,
+        backgroundImage: `url(${person?.image})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

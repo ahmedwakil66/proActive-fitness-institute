@@ -10,6 +10,7 @@ const ManageClasses = () => {
 
     return (
         <div className="my-container mt-sec mb-sec">
+            <h1 className="title-sec">Manage Classes</h1>
             <div className="overflow-x-auto">
                 <table className="table">
                     <thead>

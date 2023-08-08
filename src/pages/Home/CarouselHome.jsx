@@ -4,7 +4,7 @@ export default function CarouselHome() {
     <div className='relative'>
       <div className="carousel w-full lg:h-screen">
         <div id="slide1" className="carousel-item relative w-full">
-          <img src="https://i.ibb.co/CVkZ9wj/occer-player-kicking-ball-generated-by-ai.jpg" className="w-full" />
+          <img src="https://ucarecdn.com/21eab860-58cb-4f34-ae9d-e51a55fc43df/-/resize/1920x/" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-30">
             <a href="#slide4" className="btn btn-circle">❮</a>
             <a href="#slide2" className="btn btn-circle">❯</a>
@@ -12,21 +12,21 @@ export default function CarouselHome() {
 
         </div>
         <div id="slide2" className="carousel-item relative w-full">
-          <img src="https://i.ibb.co/njVCcBZ/img1.jpg" className="w-full" />
+          <img src="https://ucarecdn.com/426b4b9a-0e04-4fac-8cee-90447f72b5ea/-/resize/1920x/" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-30">
             <a href="#slide1" className="btn btn-circle">❮</a>
             <a href="#slide3" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
-          <img src="https://i.ibb.co/gTNqDQC/portrait-happy-smiling-beautiful-teen-girl-pool-155003-7507.jpg" className="w-full" />
+          <img src="https://ucarecdn.com/8ecf92e8-5612-4ff6-a4e2-82303b7fc07e/-/resize/1920x/" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-30">
             <a href="#slide2" className="btn btn-circle">❮</a>
             <a href="#slide4" className="btn btn-circle">❯</a>
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full">
-          <img src="https://i.ibb.co/kgJQKdS/kids-fitness-workout-little-girl.jpg" className="w-full" />
+          <img src="https://ucarecdn.com/1869a7a6-a889-4a2a-92e0-072d690708e4/-/resize/1920x/" className="w-full" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-30">
             <a href="#slide3" className="btn btn-circle">❮</a>
             <a href="#slide1" className="btn btn-circle">❯</a>

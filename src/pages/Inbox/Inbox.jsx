@@ -1,6 +1,6 @@
 import { useNavigation, useParams } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import SendInputMessage from "../../components/SendInputMessage";
 import { useQuery } from "@tanstack/react-query";
